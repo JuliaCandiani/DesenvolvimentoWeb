@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(75, 1, 75);
+}
+
+#tudo {
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+    margin: 0px auto;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(0, 0, 0);
+}
+#parte_superior {
+    width: 1000px;
+    height: 315px;
+    background-color: red;
+}
+
+#logo {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(101, 111, 158);
+}
+
+/*Define o estilo da DIV menu*/
+#menu{
+	background-color: #411023;
+	height: 150px;
+	box-shadow: 0px 0px 5px #000000;
+	border: 7px solid #deba9b;
+}
+/*Define o estilo dos links no menu*/
+.menu a{
+	color: #FFFFFF; /*cor da fonte do link*/
+	text-align: center; 
+	text-decoration: none; /*retira a sublinha do link*/
+	font-size: 20px;
+	padding: 65px 65px;
+	float: left;
+}
+/*muda de cor ao passar no menu*/
+.menu a:hover {
+	background-color: #FF8000;
+	color: black;
+}
+
+#conteudo {
+    height: 600px;
+    width: 100%;
+    background-color:rgb(101, 111, 158);
+}
+
+#um {
+    background: url(img/planodefundoimagemtres.png);
+}
+
+#dois {
+    background: url(https://pbs.twimg.com/profile_images/1143303528724779008/cTyuJlEN.jpg);
+}
+
+#tres {
+    background: url(img/planodefundoimagemtres.png);
+}
+
+#quatro {
+    background: url(https://pm1.narvii.com/6995/985894c5878ff91ee2793539f524f89752f7c1c6r1-640-360v2_00.jpg);
+}
+
+#cinco {
+    background: url(img/planodefundoimagemquatro.jpg);
+} 
+
+.vermelho {
+    background-color: red;
+    height: 200px;
+    width: 30%;
+    float: left;
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    margin: 10px;
+}
+
+.verde {
+    background-color: green;
+    height: 200px;
+    width: 92%;
+    float: left;
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    margin: 10px;
+}
+
+.azul {
+    background-color: blue;
+    height: 100px;
+    width: 50%;
+    float: right;
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    margin: 10px;
+}
+
+#pe {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+}
+

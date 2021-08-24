@@ -1,0 +1,65 @@
+body{
+    background-color:black;
+}
+
+#parte_superior{
+    width: 1000px;
+    height: 280px;
+    background-color: green;
+}
+
+#tudo{
+    width:1000px;
+    height:1000px;
+    margin: 0 auto;
+    border-width: 5px;
+   border-style: dotted;
+    border-color: black;
+    background-color: blue;
+
+}
+
+#logo{
+    width: 100%;
+    height:40px;
+    background-color: green;
+}
+
+#menu{
+    height: 64px;
+    width: 100%;
+    background-color: white;
+}
+
+#publicidade{
+    height: 150px;
+    width: 98%;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.logo{
+    display: inline-block;
+    text-align: center;
+}
+
+#titulo{
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+}
+
+#conteudo{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+
+#pe{
+    height: 90px;
+    width: 100%;
+    background-color:black;
+}
